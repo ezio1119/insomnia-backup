@@ -1,29 +1,29 @@
-_id: req_ade6c4029f0a4ee2acd5f295e7b99227
+_id: req_30d9207e478c4e69844dc95181059de6
 type: Request
 parentId: fld_0e3c5d222fc54bdb971379d18a3ed98b
-modified: 1655399527437
-created: 1655396889202
+modified: 1655399260780
+created: 1655398168093
 url: localhost:8765
-name: findCards
+name: cardsInfo
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-        "action": "findCards",
+        "action": "cardsInfo",
         "version": 6,
         "params": {
-            "query": "deck:English"
+            "cards": [1655397386012]
         }
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_3dc6309697634ac99f94114f90d6e85a
+    id: pair_dfb33ba8106c481981f0f1e0a6e76b78
 authentication: {}
-metaSortKey: -1655396889202
+metaSortKey: -1655398168093
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
