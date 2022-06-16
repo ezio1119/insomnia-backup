@@ -1,0 +1,39 @@
+_id: req_14fbe9006bc94267ac2ee85a59a148df
+type: Request
+parentId: fld_0e3c5d222fc54bdb971379d18a3ed98b
+modified: 1655400069141
+created: 1655400053994
+url: ""
+name: multi
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "action": "multi",
+        "version": 6,
+        "params": {
+            "actions": [
+                {"action": "deckNames"},
+                {
+                    "action": "browse",
+                    "params": {"query": "deck:current"}
+                }
+            ]
+        }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_cbaa2f3d82a44fd68361fd7bf0bcf285
+authentication: {}
+metaSortKey: -1655400053994
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
